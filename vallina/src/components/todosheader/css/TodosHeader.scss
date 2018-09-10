@@ -1,0 +1,41 @@
+header {
+  font-size: 2em;
+
+}
+
+.left-arrow, .right-plus {
+  top: .6em
+}
+
+.left-arrow {
+  .glyphicon {
+    margin-left: .3em;
+  }
+
+}
+
+.right-plus {
+  text-align: right;
+  .glyphicon {
+    margin-right: .3em;
+  }
+}
+
+@media (max-width: 768px) {
+  .text-align-sm {
+    text-align: center;
+  }
+}
+
+@media (max-width: 992px) {
+  .text-align-md {
+    text-align: center;
+  }
+}
+
+@media (min-width: 1200px) {
+  .text-align-lg {
+    text-align: left;
+    margin-left: 0.5em;
+  }
+}
